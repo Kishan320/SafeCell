@@ -31,7 +31,7 @@
                         <div class="card bs-border rounded overflow-hidden shadow-sm mb-20">
                             <div class="cards-title fs-18 border-bottom d-flex align-items-center gap-5px fw-semibold light-box py-12px px-xxl-20 px-3">
                                 <img src="{{ dynamicAsset(path: 'public/assets/front-end/auction/images/vallery-shop.png') }}" alt="" class="">
-                                6valley
+                                SafeCell
                             </div>
                             <div class="card-body p-0">
                                 <div class="table-responsive">

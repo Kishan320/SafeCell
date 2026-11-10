@@ -11,9 +11,9 @@ use Modules\Builder\Contracts\CartProvider as CartProviderContract;
 use Modules\Builder\Services\StorefrontContext;
 
 /**
- * 6Valley host adapter for the storefront cart.
+ * SafeCell host adapter for the storefront cart.
  *
- * 6Valley has no add-ons or item-campaign morphs, so the module's food-shaped
+ * SafeCell has no add-ons or item-campaign morphs, so the module's food-shaped
  * payload collapses to (product_id, quantity, selected variant). Mutations are
  * delegated to the host CartManager so cart-group assignment, seller resolution,
  * per-category shipping and tax stay consistent with the rest of the platform;
@@ -106,7 +106,7 @@ class CartProvider implements CartProviderContract
     }
 
     /**
-     * The module sends the chosen variation combination; 6Valley identifies a
+     * The module sends the chosen variation combination; SafeCell identifies a
      * variation by its `type` string. Accept the common shapes the storefront
      * may send.
      */
@@ -194,7 +194,7 @@ class CartProvider implements CartProviderContract
 
     /**
      * The storefront renders `variation` as a list of `{type, price, stock}`.
-     * 6Valley stores the human-readable choices as an associative map
+     * SafeCell stores the human-readable choices as an associative map
      * ({"Color":"Red","Size":"M"}), which would serialize to a JS object and
      * break the checkout's `.map()`. Collapse it to the single selected-combination
      * row the module expects, using the readable choice values as the label.

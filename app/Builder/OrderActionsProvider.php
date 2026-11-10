@@ -16,13 +16,13 @@ use Modules\Builder\Contracts\OrderActionsProvider as OrderActionsProviderContra
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for post-place-order customer actions.
+ * SafeCell host adapter for post-place-order customer actions.
  *
  * Mirrors the host Web\UserProfileController flows: cancellation is limited to
  * cash-on-delivery pending orders (with the same stock-restore + status-history
  * side effects), refunds are filed per order-detail into `refund_requests`, and
  * reorder/invoice reuse OrderManager::generateOrderAgain and the PdfGenerator
- * trait. 6Valley uses free-text cancel/refund reasons, so the reason lists are
+ * trait. SafeCell uses free-text cancel/refund reasons, so the reason lists are
  * empty. Digital re-payment (repay) is gated: it needs the host's payment-request
  * pipeline rather than a simple redirect builder.
  */
@@ -32,13 +32,13 @@ class OrderActionsProvider implements OrderActionsProviderContract
 
     public function cancellationReasons(): array
     {
-        // 6Valley captures the cancellation reason as free text.
+        // SafeCell captures the cancellation reason as free text.
         return [];
     }
 
     public function refundReasons(): array
     {
-        // 6Valley captures the refund reason as free text.
+        // SafeCell captures the refund reason as free text.
         return [];
     }
 
@@ -181,7 +181,7 @@ class OrderActionsProvider implements OrderActionsProviderContract
             // The legacy invoice blade reads session('currency_code') directly
             // (getCurrencyCode('web'), a `: string` return) on its very first
             // line. The storefront only sets that key when a shopper switches
-            // currency, so on single-currency 6valley it's often unset and the
+            // currency, so on single-currency safecell it's often unset and the
             // render throws a TypeError. Prime the currency session first — same
             // initialisation the legacy web request already carries.
             loadCurrency();

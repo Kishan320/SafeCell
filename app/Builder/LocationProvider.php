@@ -11,14 +11,14 @@ use Modules\Builder\ValueObjects\Storefront\AddressDTO;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for storefront location + saved addresses.
+ * SafeCell host adapter for storefront location + saved addresses.
  *
- * 6Valley is not zone-based and ships no map polygons (capabilities.location is
+ * SafeCell is not zone-based and ships no map polygons (capabilities.location is
  * off), so this collapses to the customer's shipping-address book plus a
  * session-held "selected address" — there is no point-in-zone validation and
  * storefrontZonePolygon() is always null. Addresses map onto the module's
  * AddressDTO; coordinates default to 0 and zoneId to 0 because they don't exist
- * in the 6Valley schema.
+ * in the SafeCell schema.
  */
 class LocationProvider implements LocationProviderContract
 {
@@ -113,7 +113,7 @@ class LocationProvider implements LocationProviderContract
 
     public function storefrontZonePolygon(?StorefrontScope $scope = null): ?array
     {
-        // 6Valley is not zone-based.
+        // SafeCell is not zone-based.
         return null;
     }
 

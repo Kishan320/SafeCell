@@ -159,7 +159,7 @@
             </button>
             <img width="44" class="img-fit aspect-1 w-40px flex-shrink-0"
                 src="{{ getStorageImages(path: $web_config['mob_logo'], type: 'logo') }}"
-                alt="6Valley"
+                alt="SafeCell"
             >
             <div class="flex-grow-1">
                 <h5 class="fs-14 mb-1">{{ getWebConfig(name: 'company_name')  }} {{ translate('Mobile_App') }}</h5>

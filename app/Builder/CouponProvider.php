@@ -11,9 +11,9 @@ use Modules\Builder\Contracts\CouponProvider as CouponProviderContract;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for storefront coupons.
+ * SafeCell host adapter for storefront coupons.
  *
- * 6Valley has no zones or delivery modules, so coupon scoping collapses to the
+ * SafeCell has no zones or delivery modules, so coupon scoping collapses to the
  * seller axis. The storefront only surfaces a store's own vendor (self) coupon
  * — admin/platform-wide coupons (seller_id 0/NULL) are never offered or applied
  * here. The eligibility, usage-limit and discount math mirror the host's

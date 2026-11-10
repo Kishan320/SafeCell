@@ -12,12 +12,12 @@ use Modules\Builder\ValueObjects\PaginatedResult;
 use Modules\Builder\ValueObjects\Storefront\WalletSummaryDTO;
 
 /**
- * 6Valley host adapter for the storefront wallet surface.
+ * SafeCell host adapter for the storefront wallet surface.
  *
  * Read paths (summary + transactions) project the customer's
  * `users.wallet_balance` and the shared `wallet_transactions` ledger.
  *
- * Add-fund is intentionally gated: 6Valley routes wallet top-ups through its own
+ * Add-fund is intentionally gated: SafeCell routes wallet top-ups through its own
  * payment-request pipeline and has no `wallet_payments` table/model matching the
  * contract's WalletPayment flow, and the storefront wallet feature is disabled
  * via config('builder.wallet_features_enabled'). initiateAddFund therefore
@@ -90,7 +90,7 @@ class WalletProvider implements WalletProviderContract
 
     public function initiateAddFund(int $customerId, float $amount, string $methodKey, string $paymentPlatform = 'web'): array
     {
-        // 6Valley has no wallet_payments bridge for the module's add-fund flow,
+        // SafeCell has no wallet_payments bridge for the module's add-fund flow,
         // and the storefront wallet feature is disabled by config.
         return [
             'success'         => false,

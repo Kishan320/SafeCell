@@ -13,7 +13,7 @@ use Modules\Builder\ValueObjects\PaginatedResult;
 use Modules\Builder\ValueObjects\Storefront\LoyaltySummaryDTO;
 
 /**
- * 6Valley host adapter for the storefront loyalty-point surface.
+ * SafeCell host adapter for the storefront loyalty-point surface.
  *
  * Reads the customer's `users.loyalty_point`, the loyalty business settings and
  * the shared `loyalty_point_transactions` ledger. Point→wallet conversion is

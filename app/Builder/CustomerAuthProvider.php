@@ -20,9 +20,9 @@ use Modules\Builder\Services\StorefrontContext;
 use Modules\Builder\ValueObjects\StorefrontCustomer;
 
 /**
- * 6Valley host adapter for storefront customer authentication.
+ * SafeCell host adapter for storefront customer authentication.
  *
- * 6Valley is single-tenant, so the 6amMart tenant/HostScope filtering drops
+ * SafeCell is single-tenant, so the 6amMart tenant/HostScope filtering drops
  * entirely. OTP for phone and email shares the `phone_or_email_verifications`
  * table; password-reset OTP uses `password_resets` (keyed by `identity`).
  * Registration, token send and email/SMS delivery are delegated to the host

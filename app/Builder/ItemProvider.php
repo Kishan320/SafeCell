@@ -17,9 +17,9 @@ use Modules\Builder\Services\StorefrontContext;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for the storefront item (product) surface.
+ * SafeCell host adapter for the storefront item (product) surface.
  *
- * Maps App\Models\Product onto the module's ItemProvider contract. 6Valley has
+ * Maps App\Models\Product onto the module's ItemProvider contract. SafeCell has
  * no delivery modules or zones, so scope collapses to an optional shop filter.
  * The shop is matched by canonical seller ownership (added_by + user_id via
  * StorefrontScope::tenantId), NOT products.shop_id, which is not reliable for
@@ -281,7 +281,7 @@ class ItemProvider implements ItemProviderContract
 
     public function foodDetails(?StorefrontScope $scope, int $itemId): ?array
     {
-        // 6Valley has no food module.
+        // SafeCell has no food module.
         return null;
     }
 
@@ -370,7 +370,7 @@ class ItemProvider implements ItemProviderContract
     }
 
     /**
-     * Restrict the storefront to its shop's own products using 6Valley's
+     * Restrict the storefront to its shop's own products using SafeCell's
      * canonical ownership (added_by + user_id) — the same fields the legacy
      * ProductRepository and shop pages use. products.shop_id is NOT reliable
      * for this (every vendor's rows can share one shop_id), so scoping on it

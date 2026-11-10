@@ -15,7 +15,7 @@ use Modules\Builder\ValueObjects\Storefront\ItemDetailDTO;
  * Maps an App\Models\Product into the exact ItemDetailDTO shape the React
  * storefront's item-details page consumes.
  *
- * 6Valley has no food module, so the food-only axes are constant: moduleType is
+ * SafeCell has no food module, so the food-only axes are constant: moduleType is
  * null, genericName/nutritionsName/allergiesName are empty. Prices and discounts
  * flow through ItemPricing so the detail header matches list cards and the cart.
  */

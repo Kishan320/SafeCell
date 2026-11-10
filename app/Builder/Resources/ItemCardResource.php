@@ -10,7 +10,7 @@ use Modules\Builder\ValueObjects\Storefront\ItemCardDTO;
  * Canonical transformer that maps an App\Models\Product into the exact shape
  * the React storefront's ItemCard consumes.
  *
- * 6Valley is a catalogue e-commerce marketplace, so the food-only axes of the
+ * SafeCell is a catalogue e-commerce marketplace, so the food-only axes of the
  * DTO don't apply: `isVeg`/`isNonVeg` are always false and `moduleType` is null.
  * `needsConfig` is true when the product carries catalogue variations (the card
  * must route Add-to-Cart through the choose-variation step) or is a digital

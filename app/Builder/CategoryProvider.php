@@ -11,12 +11,12 @@ use Modules\Builder\ValueObjects\Storefront\CategoryDTO;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for the storefront category surface.
+ * SafeCell host adapter for the storefront category surface.
  *
  * Maps App\Models\Category (top-level + one child level) into the module's
  * CategoryDTO. Product-by-category listings are delegated to ItemProvider so
  * card mapping, pricing and wishlist context stay identical to every other
- * product list. 6Valley has no delivery modules/zones, so scope only narrows
+ * product list. SafeCell has no delivery modules/zones, so scope only narrows
  * the item counts to the active shop.
  */
 class CategoryProvider implements CategoryProviderContract

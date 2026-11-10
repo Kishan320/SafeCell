@@ -11,7 +11,7 @@ use Modules\Builder\Contracts\ReviewProvider as ReviewProviderContract;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for customer reviews against delivered orders.
+ * SafeCell host adapter for customer reviews against delivered orders.
  *
  * Mirrors the host's Web\ReviewController: reviews live in the `reviews` table
  * keyed by a composite string id (`order_id` + zero-padded sequence), item and

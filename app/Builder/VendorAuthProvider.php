@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Auth;
 use Modules\Builder\Contracts\VendorAuthProvider as VendorAuthProviderContract;
 
 /**
- * 6Valley host adapter for VendorAuthProvider.
+ * SafeCell host adapter for VendorAuthProvider.
  *
  * The vendor panel authenticates sellers through the `seller` guard, so the
  * BuilderSetup editor resolves the logged-in seller for its profile dropdown.

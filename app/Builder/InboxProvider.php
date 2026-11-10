@@ -17,21 +17,21 @@ use Modules\Builder\ValueObjects\Storefront\ConversationDTO;
 use Modules\Builder\ValueObjects\Storefront\MessageDTO;
 
 /**
- * 6Valley host adapter for the storefront inbox.
+ * SafeCell host adapter for the storefront inbox.
  *
- * 6Valley stores chat as per-message `chattings` rows rather than
+ * SafeCell stores chat as per-message `chattings` rows rather than
  * Conversation/Message aggregates, so a "conversation" is the customer's thread
  * with one shop, identified by `seller_id` (which is what the module treats as
  * the conversation id). Messages, unread counts and last-message previews are
  * derived from those rows.
  *
  * Conversation id `0` is the in-house store — the module's "synthetic vendor"
- * sentinel. 6Valley persists that thread against `admin_id = 0` with a NULL
+ * sentinel. SafeCell persists that thread against `admin_id = 0` with a NULL
  * `seller_id` (see `RestAPI/v1/ChatController::send`), so it is NOT addressable
  * as `seller_id = 0`; every read and write branches on it.
  *
  * Delivery-man threads are deliberately absent: `capabilities.features
- * .deliveryManChat` is false for 6Valley, and OrderProvider withholds the
+ * .deliveryManChat` is false for SafeCell, and OrderProvider withholds the
  * delivery man id so the chat entry point never renders.
  */
 class InboxProvider implements InboxProviderContract
@@ -328,7 +328,7 @@ class InboxProvider implements InboxProviderContract
      *
      *   'vendor'  no-op — the store thread is always listed and is already the
      *             default active conversation, so there is nothing to inject.
-     *   'dm:<id>' delivery-man chat, switched off for 6Valley
+     *   'dm:<id>' delivery-man chat, switched off for SafeCell
      *             (capabilities.features.deliveryManChat). Ignored rather than
      *             opening a thread the customer has no entry point to.
      *
@@ -392,7 +392,7 @@ class InboxProvider implements InboxProviderContract
             'id'          => $conversationId,
             // InboxMessageList buckets rows by `type` and renders only the
             // 'vendor' and 'delivery' sections — anything else is dropped from
-            // the list. Every 6Valley thread here is a store thread.
+            // the list. Every SafeCell thread here is a store thread.
             'type'        => 'vendor',
             'name'        => $name,
             'avatar'      => $shop && !empty($shop->image) ? getStorageImages(path: $shop->image_full_url, type: 'shop') : null,

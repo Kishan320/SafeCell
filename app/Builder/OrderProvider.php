@@ -18,9 +18,9 @@ use Modules\Builder\ValueObjects\Storefront\OrderSummaryDTO;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for the storefront order surface.
+ * SafeCell host adapter for the storefront order surface.
  *
- * Maps App\Models\Order onto the module's order DTOs. 6Valley has no delivery
+ * Maps App\Models\Order onto the module's order DTOs. SafeCell has no delivery
  * modules/zones or scheduling, so moduleType/scheduled are constant. Orders are
  * owned by `customer_id` (is_guest = 0); each order is per-seller, so on a
  * vendor storefront the scope restricts the history to that shop's orders
@@ -223,7 +223,7 @@ class OrderProvider implements OrderProviderContract
 
     private function customerOrdersBaseQuery(int $customerId, ?StorefrontScope $scope = null): EloquentBuilder
     {
-        // Each 6Valley order is per-seller, so on a vendor storefront restrict
+        // Each SafeCell order is per-seller, so on a vendor storefront restrict
         // the customer's history to this shop's orders — otherwise orders placed
         // with other vendors would list here. On the global marketplace (no
         // scope) the full cross-shop history is shown as before.
@@ -463,7 +463,7 @@ class OrderProvider implements OrderProviderContract
             $productDiscount += (float) $detail->discount * (int) $detail->qty;
         }
 
-        // A free-delivery coupon waives the shipping fee. 6Valley still stores the
+        // A free-delivery coupon waives the shipping fee. SafeCell still stores the
         // full shipping_cost and folds the waived amount into discount_amount
         // (discount_type = 'coupon_discount'), so the raw columns would show the
         // fee AND an equal coupon discount. Mirror the storefront checkout, which
@@ -498,7 +498,7 @@ class OrderProvider implements OrderProviderContract
         // Keys mirror the ProfileOrderDetails DTO contract exactly (itemPrice,
         // addonsPrice, vatTax, deliveryCharge, additionalCharge, …) — the
         // frontend calls .toFixed() on them unguarded, so every one must be a
-        // number. Columns 6Valley doesn't have (dm_tips, extra_packaging_amount,
+        // number. Columns SafeCell doesn't have (dm_tips, extra_packaging_amount,
         // additional_charge) resolve to 0 via the null-coalesce.
         return [
             'currency'         => \App\Utils\currency_symbol() ?: '$',
@@ -509,7 +509,7 @@ class OrderProvider implements OrderProviderContract
             // Without this it duplicated itemPrice and both rows read the same value.
             'subtotal'         => $this->money(max(0.0, $subtotal - $productDiscount)),
             'productDiscount'  => $this->money($productDiscount),
-            // 6Valley stores the coupon discount in orders.discount_amount
+            // SafeCell stores the coupon discount in orders.discount_amount
             // (discount_type = 'coupon_discount'); extra_discount is a separate
             // discount (free-shipping/referral). The two were swapped here, so
             // the coupon showed under "Discount" and "Coupon discount" read 0.

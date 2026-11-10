@@ -16,13 +16,13 @@ class LocaleProvider implements LocaleProviderContract
             }
 
             return collect($languages)
-                // 6Valley language rows carry no status flag; a row is skipped
+                // SafeCell language rows carry no status flag; a row is skipped
                 // only when it explicitly opts out.
                 ->filter(fn ($language) => !\array_key_exists('status', $language) || $language['status'])
                 ->map(fn ($language) => [
                     'code'      => $language['code'] ?? 'en',
                     // Display name + flag come from the host so the storefront
-                    // switcher works for 6Valley's non-standard codes (Arabic=sa,
+                    // switcher works for SafeCell's non-standard codes (Arabic=sa,
                     // Bangla=bd, Hindi=in, …) instead of falling back to a globe.
                     'name'      => $language['name'] ?? strtoupper((string) ($language['code'] ?? 'en')),
                     'direction' => $language['direction'] ?? 'ltr',
@@ -43,7 +43,7 @@ class LocaleProvider implements LocaleProviderContract
 
     /**
      * Flag image URL from the shared front-end asset set (same source the
-     * admin/vendor/web headers use). The file name is the 6Valley language
+     * admin/vendor/web headers use). The file name is the SafeCell language
      * code, so a flag exists for every enabled language.
      */
     private static function flagUrl(string $code): string

@@ -7,7 +7,7 @@ use Modules\Builder\Contracts\OrderTrackingProvider as OrderTrackingProviderCont
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for storefront order tracking.
+ * SafeCell host adapter for storefront order tracking.
  *
  * Authenticated lookups match (customer_id, is_guest = 0); guest lookups match
  * the phone captured in the order's `shipping_address_data` with is_guest = 1.
@@ -28,7 +28,7 @@ class OrderTrackingProvider implements OrderTrackingProviderContract
     ): ?array {
         $normalizedPhone = $contactNumber ? trim($contactNumber) : null;
 
-        // Each 6Valley order is per-seller. On a vendor storefront restrict the
+        // Each SafeCell order is per-seller. On a vendor storefront restrict the
         // lookup to this shop's orders so a customer can't track an order placed
         // with another vendor from here. Global marketplace (no scope) is unrestricted.
         $vendorId = $scope?->tenantId;

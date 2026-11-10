@@ -6,7 +6,7 @@ use App\Models\Subscription;
 use Modules\Builder\Contracts\NewsletterProvider as NewsletterProviderContract;
 
 /**
- * 6Valley host adapter for NewsletterProvider.
+ * SafeCell host adapter for NewsletterProvider.
  *
  * Writes storefront footer newsletter subscriptions into the same
  * `subscriptions` table the host newsletter feature uses, with the same

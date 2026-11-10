@@ -26,9 +26,9 @@ use Modules\Builder\ValueObjects\Storefront\CheckoutSnapshotDTO;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley host adapter for storefront checkout.
+ * SafeCell host adapter for storefront checkout.
  *
- * 6Valley is a shipping-based e-commerce marketplace, so the food-delivery axes
+ * SafeCell is a shipping-based e-commerce marketplace, so the food-delivery axes
  * of the contract collapse: only 'delivery' is offered (no pickup/schedule), and
  * there are no DM tips, extra packaging, distance or schedule slots. Pricing is
  * derived from the host cart (per-category shipping + tax) and the CouponProvider.
@@ -607,7 +607,7 @@ class CheckoutProvider implements CheckoutProviderContract
      * cart is checked out as before.
      */
     /**
-     * 6Valley computes the delivery fee from its Shipping Method setting
+     * SafeCell computes the delivery fee from its Shipping Method setting
      * (order-wise / category-wise / product-wise). Category/product-wise costs
      * are already baked onto each cart row by CartManager, but order-wise needs
      * a ShippingMethod chosen per cart group (stored in CartShipping) — the

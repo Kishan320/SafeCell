@@ -48,7 +48,7 @@ The vendor screen is gated by the host: business setting `vendor_delivery_partne
 
 ## Shape
 ```
-Host app (6Valley / 6amMart)
+Host app (SafeCell / 6amMart)
   │  ships a normalized OrderData ───────────────────────────►  ┐
   │  listens to ShipmentStatusUpdated ◄───────────────────────  │   (two loose touchpoints)
   ▼                                                              ▼

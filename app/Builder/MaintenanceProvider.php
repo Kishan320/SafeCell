@@ -10,7 +10,7 @@ use Modules\Builder\ValueObjects\MaintenanceState;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley maintenance adapter.
+ * SafeCell maintenance adapter.
  *
  * Mirrors the host's admin maintenance feature (Business Settings → Maintenance
  * Mode). The storefront is the customer-facing website, so it is gated by the

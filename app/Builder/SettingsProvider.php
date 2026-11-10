@@ -25,7 +25,7 @@ class SettingsProvider implements SettingsProviderContract
     {
         // Same `fcm_credentials` row the host's service-worker generator and
         // push dispatch pipeline use, so token issuance and delivery point at
-        // one Firebase project. 6Valley stores no web-push VAPID key, so the
+        // one Firebase project. SafeCell stores no web-push VAPID key, so the
         // essentials gate on apiKey + projectId; vapidKey passes through when
         // an operator adds it later.
         $config = getWebConfig(name: 'fcm_credentials');

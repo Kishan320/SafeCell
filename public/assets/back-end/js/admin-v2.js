@@ -1,5 +1,5 @@
 /* =====================================================================
-   6Valley Admin v1 — interaction-only JS (SHELL ONLY)
+   SafeCell Admin v1 — interaction-only JS (SHELL ONLY)
    All DOM queries are scoped to the v1 shell (.app-v2, .v2-*, #v2-*).
    This script never touches anything inside the main content column.
    ===================================================================== */

@@ -7,7 +7,7 @@ use Modules\Builder\ValueObjects\HostCapabilities;
 use Modules\Builder\ValueObjects\StorefrontScope;
 
 /**
- * 6Valley capability manifest adapter.
+ * SafeCell capability manifest adapter.
  *
  * Passes through the host-owned `config/builder.php` capabilities block and
  * forces the wallet-family flags to mirror the legacy `wallet_features_enabled`

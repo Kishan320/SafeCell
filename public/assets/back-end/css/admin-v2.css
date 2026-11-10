@@ -1,5 +1,5 @@
 /* =====================================================================
-   6Valley Admin v1 — SHELL-ONLY styles (header + rail + ctxpanel + palette)
+   SafeCell Admin v1 — SHELL-ONLY styles (header + rail + ctxpanel + palette)
    Every rule is scoped so it cannot bleed into @yield('content') in the
    main column or into any other page's content. All class names are
    prefixed with v2- to guarantee zero collision with Bootstrap / existing

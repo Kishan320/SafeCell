@@ -95,29 +95,29 @@
                                 </li>
                                 <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                                 </li>
                                 <li class="page-item"><a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                                 </li>
                                 <li class="page-item">
                                     <a class="page-link"
-                                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                                         rel="next" aria-label="Next »">›</a>
                                 </li>
                             </ul>
@@ -232,29 +232,29 @@
                     </li>
                     <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                     </li>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                     </li>
                     <li class="page-item">
                         <a class="page-link"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                             rel="next" aria-label="Next »">›</a>
                     </li>
                 </ul>
@@ -327,7 +327,7 @@
                                         <td class="d-flex justify-content-center">
                                             <div class="avatar-60 d-flex align-items-center rounded">
                                                 <img class="img-fluid" alt=""
-                                                    src="http://localhost/Backend-6Valley-eCommerce-CMS/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
+                                                    src="#/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
                                             </div>
                                         </td>
                                         <td>demoo</td>
@@ -336,7 +336,7 @@
                                         </td>
                                         <td class="text-center">
 
-                                            <form action="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/status"
+                                            <form action="#/admin/category/status"
                                                 method="post" id="category-status294-form">
                                                 <input type="hidden" name="_token" value="WZ8YNBCiXnK0cq5yxNSoDIy8EG9hxlLfdBsUMUYt"
                                                     autocomplete="off"> <input type="hidden" name="id" value="294">
@@ -356,7 +356,7 @@
                                         <td>
                                             <div class="d-flex justify-content-center gap-3">
                                                 <a class="btn btn-outline-info icon-btn edit" title="Edit"
-                                                    href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/update/294">
+                                                    href="#/admin/category/update/294">
                                                     <i class="fi fi-sr-pencil"></i>
                                                 </a>
                                                 <a class="btn btn-outline-danger icon-btn delete-category" title="Delete"
@@ -382,29 +382,29 @@
                                         </li>
                                         <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                                         </li>
                                         <li class="page-item">
                                             <a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                                                 rel="next" aria-label="Next »">›</a>
                                         </li>
                                     </ul>
@@ -482,7 +482,7 @@
                         <td class="d-flex justify-content-center">
                             <div class="avatar-60 d-flex align-items-center rounded">
                                 <img class="img-fluid" alt=""
-                                    src="http://localhost/Backend-6Valley-eCommerce-CMS/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
+                                    src="#/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
                             </div>
                         </td>
                         <td>demoo</td>
@@ -491,7 +491,7 @@
                         </td>
                         <td class="text-center">
 
-                            <form action="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/status"
+                            <form action="#/admin/category/status"
                                 method="post" id="category-status294-form">
                                 <input type="hidden" name="_token" value="WZ8YNBCiXnK0cq5yxNSoDIy8EG9hxlLfdBsUMUYt"
                                     autocomplete="off"> <input type="hidden" name="id" value="294">
@@ -511,7 +511,7 @@
                         <td>
                             <div class="d-flex justify-content-center gap-3">
                                 <a class="btn btn-outline-info icon-btn edit" title="Edit"
-                                    href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/update/294">
+                                    href="#/admin/category/update/294">
                                     <i class="fi fi-sr-pencil"></i>
                                 </a>
                                 <a class="btn btn-outline-danger icon-btn delete-category" title="Delete"
@@ -537,29 +537,29 @@
                         </li>
                         <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                         </li>
                         <li class="page-item"><a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                         </li>
                         <li class="page-item">
                             <a class="page-link"
-                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                                 rel="next" aria-label="Next »">›</a>
                         </li>
                     </ul>
@@ -602,7 +602,7 @@
                                     <td class="d-flex justify-content-center">
                                         <div class="avatar-60 d-flex align-items-center rounded">
                                             <img class="img-fluid" alt=""
-                                                src="http://localhost/Backend-6Valley-eCommerce-CMS/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
+                                                src="#/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
                                         </div>
                                     </td>
                                     <td>demoo</td>
@@ -611,7 +611,7 @@
                                     </td>
                                     <td class="text-center">
 
-                                        <form action="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/status" method="post"
+                                        <form action="#/admin/category/status" method="post"
                                             id="category-status294-form">
                                             <input type="hidden" name="_token" value="WZ8YNBCiXnK0cq5yxNSoDIy8EG9hxlLfdBsUMUYt"
                                                 autocomplete="off"> <input type="hidden" name="id" value="294">
@@ -630,7 +630,7 @@
                                     <td>
                                         <div class="d-flex justify-content-center gap-3">
                                             <a class="btn btn-outline-info icon-btn edit" title="Edit"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/update/294">
+                                                href="#/admin/category/update/294">
                                                 <i class="fi fi-sr-pencil"></i>
                                             </a>
                                             <a class="btn btn-outline-danger icon-btn delete-category" title="Delete" data-product-count="0"
@@ -679,7 +679,7 @@
                 <td class="d-flex justify-content-center">
                     <div class="avatar-60 d-flex align-items-center rounded">
                         <img class="img-fluid" alt=""
-                            src="http://localhost/Backend-6Valley-eCommerce-CMS/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
+                            src="#/storage/app/public/category/2025-03-17-67d7b1ec80932.webp">
                     </div>
                 </td>
                 <td>demoo</td>
@@ -688,7 +688,7 @@
                 </td>
                 <td class="text-center">
 
-                    <form action="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/status" method="post"
+                    <form action="#/admin/category/status" method="post"
                         id="category-status294-form">
                         <input type="hidden" name="_token" value="WZ8YNBCiXnK0cq5yxNSoDIy8EG9hxlLfdBsUMUYt"
                             autocomplete="off"> <input type="hidden" name="id" value="294">
@@ -707,7 +707,7 @@
                 <td>
                     <div class="d-flex justify-content-center gap-3">
                         <a class="btn btn-outline-info icon-btn edit" title="Edit"
-                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/category/update/294">
+                            href="#/admin/category/update/294">
                             <i class="fi fi-sr-pencil"></i>
                         </a>
                         <a class="btn btn-outline-danger icon-btn delete-category" title="Delete" data-product-count="0"
@@ -745,29 +745,29 @@
                                         </li>
                                         <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                                         </li>
                                         <li class="page-item"><a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                                         </li>
                                         <li class="page-item">
                                             <a class="page-link"
-                                                href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                                                href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                                                 rel="next" aria-label="Next »">›</a>
                                         </li>
                                     </ul>
@@ -802,29 +802,29 @@
                 </li>
                 <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                 </li>
                 <li class="page-item"><a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                 </li>
                 <li class="page-item">
                     <a class="page-link"
-                        href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                        href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                         rel="next" aria-label="Next »">›</a>
                 </li>
             </ul>
@@ -868,29 +868,29 @@
                                     </li>
                                     <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
                                     </li>
                                     <li class="page-item"><a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
                                     </li>
                                     <li class="page-item">
                                         <a class="page-link"
-                                            href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                                            href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                                             rel="next" aria-label="Next »">›</a>
                                     </li>
                                 </ul>
@@ -936,29 +936,29 @@
              </li>
              <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2">2</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=3">3</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=4">4</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=5">5</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=6">6</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=7">7</a>
              </li>
              <li class="page-item"><a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=8">8</a>
              </li>
              <li class="page-item">
                  <a class="page-link"
-                     href="http://localhost/Backend-6Valley-eCommerce-CMS/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
+                     href="#/admin/report/inhouse-product-sale?added_by=in_house&amp;page=2"
                      rel="next" aria-label="Next »">›</a>
              </li>
          </ul>

@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 use Modules\Builder\Contracts\ContactProvider as ContactProviderContract;
 
 /**
- * 6Valley host adapter for ContactProvider.
+ * SafeCell host adapter for ContactProvider.
  *
  * Writes storefront contact messages into the same `contacts` table the host
  * contact page uses, so admins see all enquiries in one place. reCAPTCHA

@@ -18,7 +18,7 @@ class BuilderScopeResolver implements BuilderScopeResolverContract
         $sellerId = Auth::guard('seller')->id();
         $shop     = $this->loadShop($sellerId);
 
-        // 6Valley is a single-catalogue e-commerce marketplace: no delivery
+        // SafeCell is a single-catalogue e-commerce marketplace: no delivery
         // modules or zones, so moduleId/regionId stay null.
         return new StorefrontScope(
             tenantId: $sellerId,

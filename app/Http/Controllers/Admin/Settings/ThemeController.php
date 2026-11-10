@@ -84,7 +84,7 @@ class ThemeController extends BaseController
             $status = 1;
             $message = translate('Notification_Sent_to_All_Vendors');
             $this->notificationRepo->add($dataArray);
-            $this->sendPushNotificationToTopic(data: $dataArray, topic: 'six_valley_seller');
+            $this->sendPushNotificationToTopic(data: $dataArray, topic: 'safecell_seller');
         } catch (Throwable $th) {
         }
 

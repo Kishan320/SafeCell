@@ -446,7 +446,7 @@ trait PushNotificationTrait
      * @param string $topic
      * @return bool|string
      */
-    protected function sendPushNotificationToTopic(array|object $data, string $topic = 'sixvalley'): bool|string
+    protected function sendPushNotificationToTopic(array|object $data, string $topic = 'safecell'): bool|string
     {
         $postData = [
             'message' => [

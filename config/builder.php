@@ -17,7 +17,7 @@
 
 return [
     'cms_dashboard_route' => env('BUILDER_CMS_DASHBOARD_ROUTE', 'vendor.dashboard.index'),
-    'default_platform_name'  => '6valley',
+    'default_platform_name'  => 'SafeCell',
 
     /*
      * Master switch for storefront wallet-family features: wallet payment,
@@ -30,7 +30,7 @@ return [
     'wallet_features_enabled' => false,
 
     /*
-     * 6Valley computes the storefront delivery fee from its admin/seller
+     * SafeCell computes the storefront delivery fee from its admin/seller
      * "Shipping Method" setting (order-wise / category-wise / product-wise).
      * Order-wise needs a ShippingMethod chosen per cart group; the legacy site
      * has a picker, the storefront does not — so when true the CheckoutProvider
@@ -105,10 +105,10 @@ return [
             // Extra address inputs rendered under name/phone in the add/edit
             // address form, in order. Each maps to a shipping_addresses column
             // the host persists (LocationProvider::fill). `half` pairs two
-            // fields on one row. 6Valley uses city/state/zip/country (it has no
+            // fields on one row. SafeCell uses city/state/zip/country (it has no
             // road/house/floor columns); 6amMart overrides with those.
             // Show the email input on every address (not just guest checkout).
-            // False for 6Valley: guests still get email via the guest-checkout
+            // False for SafeCell: guests still get email via the guest-checkout
             // path, but saved addresses don't collect it.
             'addressEmail' => false,
             // Address inputs under name/phone. `enabled: false` keeps a field
@@ -132,7 +132,7 @@ return [
             'unavailableNote' => false, 'deliveryInstruction' => false,
             'orderNote' => false, 'savedAddress' => true,
             // Whether a guest (not logged-in) may apply a coupon. False for
-            // 6valley: guests get no coupon suggestions and coupon apply is
+            // SafeCell: guests get no coupon suggestions and coupon apply is
             // rejected server-side (CouponProvider). Logged-in customers are
             // unaffected. Coupon feature itself is still gated by `coupon` above.
             'guestCoupon' => false,
@@ -157,7 +157,7 @@ return [
             'buyNow' => true,
             // Delivery-partner contact affordances on the order-details card.
             // `chat` = message via storefront inbox, `call` = tap-to-call tel: link.
-            // Both hidden for 6valley; the host adapter (OrderProvider) enforces
+            // Both hidden for SafeCell; the host adapter (OrderProvider) enforces
             // them by withholding the deliveryMan id / phone from the payload.
             'deliveryManChat' => false, 'deliveryManCall' => false,
         ],

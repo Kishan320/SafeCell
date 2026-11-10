@@ -264,7 +264,7 @@ if (!function_exists('getCustomerFromQuery')) {
 if (!function_exists('getFCMTopicListToSubscribe')) {
     function getFCMTopicListToSubscribe(): array
     {
-        $topics = ['sixvalley', 'maintenance_mode_start_user_app'];
+        $topics = ['safecell', 'maintenance_mode_start_user_app'];
         return array_merge((session('customer_fcm_topic') ?? []), $topics);
     }
 }

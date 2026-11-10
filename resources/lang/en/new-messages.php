@@ -3083,4 +3083,5 @@ ____________________________________________________on_search_engines_and_see_th
 	"Ex:_XYZ_store" => "Ex: XYZ store",
 	"100%_Dermatologist_Formulated_Bio-Actives" => "100% Dermatologist Formulated Bio-Actives",
 	"30-Day_Clinical_Efficacy_Guarantee" => "30-Day Clinical Efficacy Guarantee",
+	"Best_Selling_Products" => "Best Selling Products",
 ];

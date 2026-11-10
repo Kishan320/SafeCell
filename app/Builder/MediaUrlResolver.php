@@ -27,7 +27,7 @@ class MediaUrlResolver implements MediaUrlResolverContract
 
     public function assetUrl(string $path): string
     {
-        // 6Valley's Laravel app can be served either from the project root or
+        // SafeCell's Laravel app can be served either from the project root or
         // from the nested public/ folder; dynamicAsset() strips the public/
         // prefix when DOMAIN_POINTED_DIRECTORY is 'public', so bundled assets
         // resolve correctly under both deployment layouts.
