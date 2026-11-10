@@ -1,0 +1,6 @@
+<svg width="150" height="38" viewBox="0 0 150 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="3" width="32" height="32" rx="8" fill="#0D6EFD"/>
+  <path d="M18 10L26 14V20C26 24.5 22.5 27.5 18 29C13.5 27.5 10 24.5 10 20V14L18 10Z" fill="white"/>
+  <path d="M15 19.5L17.5 22L22 17" stroke="#0D6EFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="42" y="26" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">Safe<tspan fill="#60A5FA">Cell</tspan></text>
+</svg>
