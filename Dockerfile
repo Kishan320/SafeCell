@@ -77,7 +77,7 @@ WORKDIR /var/www/html
 COPY composer.json composer.lock ./
 RUN composer install --no-dev --no-scripts --no-autoloader --prefer-dist --no-interaction
 
-# Copy the rest of the application files
+# Copy the rest of the application files (including storage/app/public)
 COPY . .
 
 # Copy Vite-compiled frontend assets from Stage 1
@@ -86,7 +86,9 @@ COPY --from=frontend /app/public/build ./public/build
 # Finish Composer autoload optimization and builder bundle packaging
 RUN composer dump-autoload --optimize --no-dev --no-interaction \
     && php artisan prepare:builder-bundle build.zip || true \
-    && (test -L build || ln -s public/build build)
+    && (test -L build || ln -s public/build build) \
+    && rm -rf public/storage \
+    && ln -s /var/www/html/storage/app/public public/storage
 
 # Copy configuration files and entrypoint script
 COPY docker/php.ini /usr/local/etc/php/conf.d/docker-safecell.ini
@@ -100,7 +102,7 @@ RUN chmod +x /usr/local/bin/entrypoint.sh \
 
 # Set proper permissions for Laravel directories
 RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
 
 # Port 80 exposed by default (dynamic $PORT handled by entrypoint.sh)
 EXPOSE 80

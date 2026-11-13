@@ -16,16 +16,17 @@ if [ ! -f /var/www/html/.env ]; then
 fi
 
 # Ensure storage directories exist
-mkdir -p /var/www/html/storage/framework/cache/data \
+mkdir -p /var/www/html/storage/app/public \
+         /var/www/html/storage/framework/cache/data \
          /var/www/html/storage/framework/sessions \
          /var/www/html/storage/framework/views \
          /var/www/html/storage/logs \
          /var/www/html/bootstrap/cache
 
-# Ensure storage symlink exists
-if [ ! -L /var/www/html/public/storage ]; then
-    php artisan storage:link 2>/dev/null || true
-fi
+# Ensure storage symlink exists and points correctly to /var/www/html/storage/app/public
+rm -f /var/www/html/public/storage 2>/dev/null || true
+ln -sfn /var/www/html/storage/app/public /var/www/html/public/storage
+php artisan storage:link 2>/dev/null || true
 
 # Ensure build symlink exists
 if [ ! -L /var/www/html/build ]; then
@@ -33,7 +34,7 @@ if [ ! -L /var/www/html/build ]; then
 fi
 
 # Fix permissions for Laravel storage and cache
-chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
 chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Run database migrations if explicitly enabled

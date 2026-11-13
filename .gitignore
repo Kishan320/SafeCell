@@ -8,6 +8,8 @@
 /storage/*.key
 composer.phar
 /storage/app/*
+!/storage/app/public/
+!/storage/app/public/**
 /storage/framework/cache/*
 /vendor
 .vscode
