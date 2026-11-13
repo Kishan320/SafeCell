@@ -3084,4 +3084,6 @@ ____________________________________________________on_search_engines_and_see_th
 	"100%_Dermatologist_Formulated_Bio-Actives" => "100% Dermatologist Formulated Bio-Actives",
 	"30-Day_Clinical_Efficacy_Guarantee" => "30-Day Clinical Efficacy Guarantee",
 	"Best_Selling_Products" => "Best Selling Products",
+	"Secure_&_Encrypted_SafeCell_Checkout" => "Secure & Encrypted SafeCell Checkout",
+	"Fast_Express_Cellular_Care_Delivery" => "Fast Express Cellular Care Delivery",
 ];
